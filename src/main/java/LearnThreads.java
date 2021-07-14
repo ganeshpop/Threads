@@ -4,6 +4,9 @@ public class LearnThreads extends Thread{
             amount++ ;
             System.out.println("This code is running in a thread");
     }
+
+
+
     public static void main(String[] args) {
         LearnThreads thread = new LearnThreads();
         thread.start();
